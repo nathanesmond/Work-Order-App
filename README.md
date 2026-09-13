@@ -8,6 +8,7 @@ Messaging for push notifications.
 > **Monorepo** — [`WorkOrderbackend/`](WorkOrderbackend/) is the API, [`workorderapp/`](workorderapp/) is the mobile app.
 
 ---
+<img width="1920" height="1080" alt="WorkOrder" src="https://github.com/user-attachments/assets/219066bd-bebb-4bcd-98e4-fb39466b99fc" />
 
 ## What it does
 
