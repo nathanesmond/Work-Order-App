@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "974729496477",
+    "project_id": "workorder-app-28551",
+    "storage_bucket": "workorder-app-28551.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974729496477:android:bdb9d9e3b8ad444738d174",
+        "android_client_info": {
+          "package_name": "com.example.workorderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPDK7kL9tTZYUcB1pIQYd1l1-6LL-Hyf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

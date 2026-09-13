@@ -1,0 +1,63 @@
+# ---------------------------------------------------------------------------
+# Repo-wide ignores.
+# WorkOrderbackend/.gitignore and workorderapp/.gitignore still apply inside
+# their own folders; the rules here are the shared ones plus a safety net for
+# files that must never reach a public repo.
+# ---------------------------------------------------------------------------
+
+# --- Secrets: never commit these ---
+.env
+.env.*
+!.env.example
+**/storage/app/firebase-credentials.json
+**/firebase-credentials.json
+*-service-account*.json
+*.pem
+*.p12
+*.jks
+*.keystore
+**/android/key.properties
+auth.json
+
+# Real database dump with live tokens/hashes: the sanitized copy in
+# WorkOrderbackend/database/sql/ is the one that ships.
+WorkOrderbackend/workorder_app.sql
+
+# --- Dependencies ---
+/vendor/
+**/vendor/
+node_modules/
+.pub-cache/
+.pub/
+
+# --- Build output ---
+/build/
+**/build/
+.dart_tool/
+**/public/build/
+**/public/hot
+**/public/storage
+app.*.symbols
+app.*.map.json
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
+.fleet/
+.nova/
+.zed/
+*.iml
+*.ipr
+*.iws
+.history/
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs / caches ---
+*.log
+.phpunit.result.cache
+.phpunit.cache/
+.phpactor.json

@@ -1,0 +1,30 @@
+* text=auto eol=lf
+
+*.md   text diff=markdown
+*.php  text diff=php
+*.dart text
+*.sql  text
+
+# Windows-native scripts must keep CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binaries
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.jar  binary
+*.ttf  binary
+*.otf  binary
+
+# Generated Flutter platform scaffolding — keep it out of GitHub's language
+# stats so the bar reflects the Dart and PHP that was actually written.
+workorderapp/ios/**     linguist-generated
+workorderapp/macos/**   linguist-generated
+workorderapp/linux/**   linguist-generated
+workorderapp/windows/** linguist-generated
+workorderapp/web/**     linguist-generated
+WorkOrderbackend/public/index.php linguist-generated
